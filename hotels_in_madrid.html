@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_067c0a1fb658b2cea70ddd1b8bd2525b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_067c0a1fb658b2cea70ddd1b8bd2525b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_067c0a1fb658b2cea70ddd1b8bd2525b = L.map(
+                "map_067c0a1fb658b2cea70ddd1b8bd2525b",
+                {
+                    center: [40.4168, -3.7038],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76a3afa0e1c47198852bc377b1e57818 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var marker_dcfbe60672d5a07aec80d1d2f9695cbf = L.marker(
+                [40.43269501175637, -3.6925325248722296],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_f052a2ee62a990a0136a182a347b14de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcfbe60672d5a07aec80d1d2f9695cbf.setIcon(icon_f052a2ee62a990a0136a182a347b14de);
+        
+    
+            marker_dcfbe60672d5a07aec80d1d2f9695cbf.bindTooltip(
+                `<div>
+                     Santo Mauro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1e82bf474e365db52f3187bbb849f87 = L.marker(
+                [40.4313883670282, -3.6878976680884823],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_133d5149a1fb7265793860b491dfc1bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1e82bf474e365db52f3187bbb849f87.setIcon(icon_133d5149a1fb7265793860b491dfc1bf);
+        
+    
+            marker_d1e82bf474e365db52f3187bbb849f87.bindTooltip(
+                `<div>
+                     Rosewood Villa Magna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce2a5f7ae3a7abac4d04209ff92c5917 = L.marker(
+                [40.42955902175514, -3.683777795391819],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_6be909e926615ed18ebf27bfcb705321 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce2a5f7ae3a7abac4d04209ff92c5917.setIcon(icon_6be909e926615ed18ebf27bfcb705321);
+        
+    
+            marker_ce2a5f7ae3a7abac4d04209ff92c5917.bindTooltip(
+                `<div>
+                     BLESS Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f72824ebb0beba5d0becaa29d88c2ef4 = L.marker(
+                [40.42132635222885, -3.709870322470688],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_db133fe3ab3497246c219c8f084db86a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f72824ebb0beba5d0becaa29d88c2ef4.setIcon(icon_db133fe3ab3497246c219c8f084db86a);
+        
+    
+            marker_f72824ebb0beba5d0becaa29d88c2ef4.bindTooltip(
+                `<div>
+                     Palacio de los Duques Gran Meliá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_372fbe97a1bc9e179b3bd96581066189 = L.marker(
+                [40.41890863089563, -3.7059221111363856],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_c4eb58f05b559531bacb97679bb41dcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_372fbe97a1bc9e179b3bd96581066189.setIcon(icon_c4eb58f05b559531bacb97679bb41dcf);
+        
+    
+            marker_372fbe97a1bc9e179b3bd96581066189.bindTooltip(
+                `<div>
+                     The Madrid EDITION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b0e259cdcaa44f0296f4b3c6a851249 = L.marker(
+                [40.41760171832236, -3.700428947540834],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_a054ae78048a97340afb255564064ad6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b0e259cdcaa44f0296f4b3c6a851249.setIcon(icon_a054ae78048a97340afb255564064ad6);
+        
+    
+            marker_4b0e259cdcaa44f0296f4b3c6a851249.bindTooltip(
+                `<div>
+                     JW Marriott Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26d40ca06c567835cac2f30640173520 = L.marker(
+                [40.41655616998503, -3.695536598713546],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_97d534c60d7159572678b17784adbaf6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26d40ca06c567835cac2f30640173520.setIcon(icon_97d534c60d7159572678b17784adbaf6);
+        
+    
+            marker_26d40ca06c567835cac2f30640173520.bindTooltip(
+                `<div>
+                     The Westin Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cd8e19bc5e76f7f1014bcdc005b52e8 = L.marker(
+                [40.41714429292401, -3.692875847596951],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_bf884a680ec8a695c42f9e1a106941fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9cd8e19bc5e76f7f1014bcdc005b52e8.setIcon(icon_bf884a680ec8a695c42f9e1a106941fa);
+        
+    
+            marker_9cd8e19bc5e76f7f1014bcdc005b52e8.bindTooltip(
+                `<div>
+                     Hotel Mandarín Oriental Ritz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3461dbf273a98a8bf02f7c3513ac02ed = L.marker(
+                [40.419678923970885, -3.6996458760391007],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_c986e7866dd10c77440d66c3c6f53dcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3461dbf273a98a8bf02f7c3513ac02ed.setIcon(icon_c986e7866dd10c77440d66c3c6f53dcd);
+        
+    
+            marker_3461dbf273a98a8bf02f7c3513ac02ed.bindTooltip(
+                `<div>
+                     Iberostar Las Letras Gran Vía
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_990470913adb315e0e03f9309e855da2 = L.marker(
+                [40.43269501175637, -3.6925325248722296],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_9bbca8b8e6eb01e030e3d8ebd843c517 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_990470913adb315e0e03f9309e855da2.setIcon(icon_9bbca8b8e6eb01e030e3d8ebd843c517);
+        
+    
+            marker_990470913adb315e0e03f9309e855da2.bindTooltip(
+                `<div>
+                     Santo Mauro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdd557d431737f726219b09977d4a105 = L.marker(
+                [40.4313883670282, -3.6878976680884823],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_783a6aa5c91e6115d08f30e5c5009a81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bdd557d431737f726219b09977d4a105.setIcon(icon_783a6aa5c91e6115d08f30e5c5009a81);
+        
+    
+            marker_bdd557d431737f726219b09977d4a105.bindTooltip(
+                `<div>
+                     Rosewood Villa Magna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed3928c0241e33457cd1c8d0c0c304f2 = L.marker(
+                [40.42955902175514, -3.683777795391819],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_52a35b92a0427bc39491c47c8f758afd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed3928c0241e33457cd1c8d0c0c304f2.setIcon(icon_52a35b92a0427bc39491c47c8f758afd);
+        
+    
+            marker_ed3928c0241e33457cd1c8d0c0c304f2.bindTooltip(
+                `<div>
+                     BLESS Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5df646037d595ffce24057bf5919128e = L.marker(
+                [40.42132635222885, -3.709870322470688],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_a13d075682345c11974d2892d9f775cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5df646037d595ffce24057bf5919128e.setIcon(icon_a13d075682345c11974d2892d9f775cc);
+        
+    
+            marker_5df646037d595ffce24057bf5919128e.bindTooltip(
+                `<div>
+                     Palacio de los Duques Gran Meliá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_077c4d6f788407d3f0cc3d7ff072c266 = L.marker(
+                [40.41890863089563, -3.7059221111363856],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_97537d89180cef482b18987cfbc90f38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_077c4d6f788407d3f0cc3d7ff072c266.setIcon(icon_97537d89180cef482b18987cfbc90f38);
+        
+    
+            marker_077c4d6f788407d3f0cc3d7ff072c266.bindTooltip(
+                `<div>
+                     The Madrid EDITION
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d131bbb00bb67e6b9c5c331358e52753 = L.marker(
+                [40.41760171832236, -3.700428947540834],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_f9d5448c063f185d5c518a8c9359ca4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d131bbb00bb67e6b9c5c331358e52753.setIcon(icon_f9d5448c063f185d5c518a8c9359ca4f);
+        
+    
+            marker_d131bbb00bb67e6b9c5c331358e52753.bindTooltip(
+                `<div>
+                     JW Marriott Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b7891dce20e2c0d3a7d24f92dfd4e94 = L.marker(
+                [40.41655616998503, -3.695536598713546],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_a608fb1e38a017eb965b1efd95ea711c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b7891dce20e2c0d3a7d24f92dfd4e94.setIcon(icon_a608fb1e38a017eb965b1efd95ea711c);
+        
+    
+            marker_2b7891dce20e2c0d3a7d24f92dfd4e94.bindTooltip(
+                `<div>
+                     The Westin Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c991ef1944bc22af173a1dd69e9da829 = L.marker(
+                [40.41714429292401, -3.692875847596951],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_0fb5e656e823ad0fa799c36869a0fbda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "hotel", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c991ef1944bc22af173a1dd69e9da829.setIcon(icon_0fb5e656e823ad0fa799c36869a0fbda);
+        
+    
+            marker_c991ef1944bc22af173a1dd69e9da829.bindTooltip(
+                `<div>
+                     Hotel Mandarín Oriental Ritz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f656998937cf5188f4261aeea9cb4181 = L.marker(
+                [40.419678923970885, -3.6996458760391007],
+                {}
+            ).addTo(map_067c0a1fb658b2cea70ddd1b8bd2525b);
+        
+    
+            var icon_6e0139e6dc3351ef7310ce22290804d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f656998937cf5188f4261aeea9cb4181.setIcon(icon_6e0139e6dc3351ef7310ce22290804d5);
+        
+    
+            marker_f656998937cf5188f4261aeea9cb4181.bindTooltip(
+                `<div>
+                     Iberostar Las Letras Gran Vía
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
